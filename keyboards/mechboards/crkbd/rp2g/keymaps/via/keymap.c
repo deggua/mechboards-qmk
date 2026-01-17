@@ -85,9 +85,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_F11,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F12,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, KC_M_FNREF, KC_M_PKDEF, XXXXXXX,                XXXXXXX, KC_M_BLKC, KC_M_MVLU, XXXXXXX, XXXXXXX, XXXXXXX,
+      RGB_MOD, RGB_HUI, RGB_SAI, KC_M_FNREF, KC_M_PKDEF, XXXXXXX,                XXXXXXX, KC_M_BLKC, KC_M_MVLU, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, KC_M_BACK, KC_M_MVLD, KC_M_FRWD, XXXXXXX, QK_BOOTLOADER,
+      RGB_TOG, RGB_HUD, RGB_SAD, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, KC_M_BACK, KC_M_MVLD, KC_M_FRWD, XXXXXXX, QK_BOOTLOADER,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LGUI, _______,  KC_SPC,     KC_ENT, _______, KC_RALT
                                       //`--------------------------'  `--------------------------'
